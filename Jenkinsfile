@@ -4,7 +4,7 @@ pipeline{
    stages{
       stage('build'){
 	steps{
-	   echo "Lets build game-of-life"
+	   echo "Lets build Pet Clinic"
 	   sh 'mvn clean install'
 	}
       }
